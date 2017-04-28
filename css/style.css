@@ -1,0 +1,173 @@
+/*HEADER*/
+
+#head {
+    text-align: right;
+    margin-right: 20px;
+    padding-bottom: 50px;
+    height: 20px;
+    font-size: 13px;
+    line-height: 24px;
+}
+
+#head ul {
+    display: block;
+    list-style-type: disc;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 40px;
+}
+
+#head li {
+    display: inline-block;
+    margin-left: 9px;
+    margin-right: 10px;
+}
+
+#signIn {
+    height: 30px;
+    width: 60px;
+    background-color: #4285f4;
+    border: none;
+    color: white;
+    border-radius: 2px;
+    font-weight: bold;
+}
+
+
+/*BODY*/
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+
+#search {
+    -webkit-appearance: none;
+    width: 600px;
+    height: 40px;
+    border-radius: 1px;
+    border: 1px solid #f4f4f4;
+    box-shadow: 0 2px 2px rgb(203, 203, 203);
+    line-height: normal;
+    background-image: url(https://infogalactic.com/w/images/2/22/Google_microphone_logo.png);
+    background-repeat: no-repeat;
+    background-position: right 15px center;
+    background-size: 14px;
+    margin: auto;
+}
+
+#search:hover {
+    box-shadow: 1px 3px 3px 1px rgba(0, 0, 0, 0.2);
+}
+
+input,
+textarea,
+select,
+button {
+    text-rendering: auto;
+    color: initial;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    margin: 0em 0em 0em 0em;
+    font: 13.3333px Arial;
+}
+
+input,
+textarea,
+select,
+button,
+meter,
+progress {
+    -webkit-writing-mode: horizontal-tb;
+}
+
+input {
+    background-color: white;
+    -webkit-rtl-ordering: logical;
+    user-select: text;
+    cursor: auto;
+}
+
+#srch {
+    text-align: center;
+}
+
+#luckybtn,
+#searchbtn {
+    background-color: #f4f4f4;
+    font-weight: bold;
+    border: 1px solid rgba(255, 255, 255, 0);
+    color: #757575;
+    font-size: 14px;
+    padding: 10px;
+    border-radius: 2px;
+}
+
+#logo {
+    text-align: center;
+    height: auto;
+    margin-top: 70px;
+    padding-top: 50px;
+}
+
+div {
+    display: block;
+}
+
+
+/*FOOTER*/
+
+#footer {
+    background-color: #f4f4f4;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+    border-top: 1px solid rgb(238, 238, 238)
+}
+
+.left {
+    float: left;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+ul,
+menu,
+dir {
+    display: block;
+    list-style-type: disc;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 40px;
+}
+
+.right {
+    float: right;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+.right li {
+    padding-left: 30px;
+}
+
+li {
+    text-align: -webkit-match-parent;
+    display: inline;
+}
+
+center {
+    margin: 50px;
+}
+
+#footer li {}
